@@ -1,0 +1,18 @@
+知识点：
+（1）不能干想，得思考
+怎么找结束位置？能不能先找开始位置，再找结束位置，然后两者做减法
+class Solution {
+public:
+    vector<int> searchRange(vector<int>& nums, int target) {
+        //双二分行不行
+        int left = 0;
+        int right = nums.size()-1;
+        while(left<=right){
+            mid = (right-left)/2 + left;
+            int num = nums[mid];
+            if(num==target){
+                
+            }
+        }
+    }
+};
